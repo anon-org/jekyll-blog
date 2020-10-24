@@ -207,10 +207,11 @@ main#post {
     padding: .5px 2px;
   }
 
+  & a {
+    text-decoration: underline;
+  }
+
   & > p {
-    & > a {
-      text-decoration: underline;
-    }
     
     & > img {
       max-width: 100%;
