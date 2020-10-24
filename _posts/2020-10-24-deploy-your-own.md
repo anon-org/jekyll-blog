@@ -30,7 +30,7 @@ $ make build
 ```
 
 ## Deploy your own
-- Use template from this repo
+- Use template from this [repo](https://github.com/anon-org/jekyll-blog)
 - Adjust the configuration at `_config.yaml`
 - Add something on `_posts`
 - Build
