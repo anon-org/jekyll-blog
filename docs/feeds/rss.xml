@@ -163,7 +163,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
 
 &lt;h2 id=&quot;deploy-your-own&quot;&gt;Deploy your own&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Use template from this repo&lt;/li&gt;
+  &lt;li&gt;Use template from this &lt;a href=&quot;https://github.com/anon-org/jekyll-blog&quot;&gt;repo&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Adjust the configuration at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yaml&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Add something on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Build&lt;/li&gt;
