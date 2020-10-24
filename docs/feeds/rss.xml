@@ -9,8 +9,8 @@
     <description>Jekyll Blog Template created for you.</description>    
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
-    <link>https://anon-org.github.io/jekyll-blog</link>
-    <atom:link href="https://anon-org.github.io/jekyll-blog/feeds/rss.xml" rel="self" type="application/rss+xml" />
+    <link>https://anon-org.github.io/jekyll-blog/</link>
+    <atom:link href="https://anon-org.github.io/jekyll-blog//feeds/rss.xml" rel="self" type="application/rss+xml" />
     <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0700</lastBuildDate>
     
       <item>
@@ -128,8 +128,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
 &lt;/table&gt;
 </content>
         <pubDate>Sat, 24 Oct 2020 00:00:00 +0700</pubDate>
-        <link>https://anon-org.github.io/jekyll-blog/example-f058b7/</link>
-        <guid isPermaLink="true">https://anon-org.github.io/jekyll-blog/example-f058b7/</guid>
+        <link>https://anon-org.github.io/jekyll-blog//example-f058b7/</link>
+        <guid isPermaLink="true">https://anon-org.github.io/jekyll-blog//example-f058b7/</guid>
       </item>
     
       <item>
@@ -171,8 +171,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
 &lt;/ul&gt;
 </content>
         <pubDate>Sat, 24 Oct 2020 00:00:00 +0700</pubDate>
-        <link>https://anon-org.github.io/jekyll-blog/deploy-your-own-92dea0/</link>
-        <guid isPermaLink="true">https://anon-org.github.io/jekyll-blog/deploy-your-own-92dea0/</guid>
+        <link>https://anon-org.github.io/jekyll-blog//deploy-your-own-92dea0/</link>
+        <guid isPermaLink="true">https://anon-org.github.io/jekyll-blog//deploy-your-own-92dea0/</guid>
       </item>
     
   </channel>
