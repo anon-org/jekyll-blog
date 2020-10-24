@@ -1,0 +1,48 @@
+# site
+url: https://anon-org.github.io/jekyll-blog
+title: Jekyll Blog Template
+description: Jekyll Blog Template created for you.
+author: Clavin June
+collections:
+  feeds:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /:title-:salt/
+  - scope:
+      path: ""
+      type: feeds
+    values:
+      layout: none
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+pagination:
+  enabled: true
+  collection: posts
+  per_page: 7
+  sort_reverse: true
+  permalink: /:num/
+  sort_field: date
+
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+
+feed:
+  path: /feeds/atom.xml
+
+exclude:
+  - docs
+  - Makefile
+  - README.md
+
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-feed

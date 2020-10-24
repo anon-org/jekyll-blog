@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    Site Template By: Clavin June | https://github.com/anon-org/jekyll-blog
+  -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatbile" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Clavin June" />
+  <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+" />
+  <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+" />
+  <meta property="og:title" content="Example | Jekyll Blog Template" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="https://anon-org.github.io/jekyll-blog/example-f058b7/" />
+  <meta property="og:site_name" content="Jekyll Blog Template" />
+  
+  <title> Example | Jekyll Blog Template </title>
+  <link rel="stylesheet" href="https://anon-org.github.io/jekyll-blog/assets/css/styles.css">
+  <link rel="stylesheet" href="https://anon-org.github.io/jekyll-blog/assets/css/syntax.css">
+</head>
+<body><main id="post">
+  <div>
+    <h1 class="title">Example</h1>
+    <div class="posts-time">
+      <span>Oct 24, 2020</span>
+      <span>&nbsp;&middot;&nbsp;</span>
+      <span>~3min read</span>
+    </div>
+    <div class="posts-tags">
+      <span class="posts-tags-category" id="3bdcb1">
+        Today I Learn
+      </span>
+        <span class="posts-tags-content">#example</span>
+      
+        <span class="posts-tags-content">#software</span>
+      
+        <span class="posts-tags-content">#til</span>
+      
+    </div>
+  </div>
+  <hr>
+  <h1 id="lorem-ipsum">Lorem Ipsum</h1>
+
+<p><img src="https://miro.medium.com/max/2400/0*bde9s8VdGir9_874" alt="Photo by Serhat Beyazkaya on Unsplash" /></p>
+<h2 id="dolor">Dolor</h2>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">java.util.Map</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.util.TreeSet</span><span class="o">;</span>
+ 
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">GetEnv</span> <span class="o">{</span>
+  <span class="cm">/**
+   * let's test generics
+   * @param args the command line arguments
+   */</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+    <span class="c1">// get a map of environment variables</span>
+    <span class="nc">Map</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">,</span> <span class="nc">String</span><span class="o">&gt;</span> <span class="n">env</span> <span class="o">=</span> <span class="nc">System</span><span class="o">.</span><span class="na">getenv</span><span class="o">();</span>
+    <span class="c1">// build a sorted set out of the keys and iterate</span>
+    <span class="k">for</span><span class="o">(</span><span class="nc">String</span> <span class="nl">k:</span> <span class="k">new</span> <span class="nc">TreeSet</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">&gt;(</span><span class="n">env</span><span class="o">.</span><span class="na">keySet</span><span class="o">()))</span> <span class="o">{</span>
+      <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">printf</span><span class="o">(</span><span class="s">"%s = %s\n"</span><span class="o">,</span> <span class="n">k</span><span class="o">,</span> <span class="n">env</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">k</span><span class="o">));</span>
+    <span class="o">}</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<div class="language-golang highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">highlight</span>
+
+<span class="k">import</span> <span class="p">(</span>
+  <span class="s">"container/heap"</span>
+  <span class="s">"log"</span>
+<span class="p">)</span>
+
+<span class="k">type</span> <span class="n">poi</span> <span class="k">struct</span> <span class="p">{</span>
+  <span class="n">i</span>         <span class="kt">int</span>
+  <span class="n">start</span>     <span class="kt">bool</span>
+  <span class="n">class</span>     <span class="kt">string</span>
+  <span class="n">highlight</span> <span class="o">*</span><span class="n">highlight</span>
+<span class="p">}</span>
+
+<span class="k">type</span> <span class="n">poiHeap</span> <span class="p">[]</span><span class="n">poi</span>
+
+<span class="k">func</span> <span class="p">(</span><span class="n">h</span> <span class="n">poiHeap</span><span class="p">)</span> <span class="n">Len</span><span class="p">()</span> <span class="kt">int</span> <span class="p">{</span> <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="n">h</span><span class="p">)</span> <span class="p">}</span>
+<span class="k">func</span> <span class="p">(</span><span class="n">h</span> <span class="n">poiHeap</span><span class="p">)</span> <span class="n">Less</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">bool</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="n">h</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">i</span> <span class="o">==</span> <span class="n">h</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">.</span><span class="n">i</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">h</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">start</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="n">h</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">.</span><span class="n">start</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="o">-</span><span class="n">h</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">i</span> <span class="o">&lt;</span> <span class="o">-</span><span class="n">h</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">.</span><span class="n">i</span>
+<span class="p">}</span>
+<span class="k">func</span> <span class="p">(</span><span class="n">h</span> <span class="n">poiHeap</span><span class="p">)</span> <span class="n">Swap</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="kt">int</span><span class="p">)</span> <span class="p">{</span> <span class="n">h</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">h</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">h</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">h</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">}</span>
+
+<span class="k">func</span> <span class="p">(</span><span class="n">h</span> <span class="o">*</span><span class="n">poiHeap</span><span class="p">)</span> <span class="n">Push</span><span class="p">(</span><span class="n">x</span> <span class="k">interface</span><span class="p">{})</span> <span class="p">{</span>
+  <span class="c">// Push and Pop use pointer receivers because they modify the slice's length,</span>
+  <span class="c">// not just its contents.</span>
+  <span class="o">*</span><span class="n">h</span> <span class="o">=</span> <span class="nb">append</span><span class="p">(</span><span class="o">*</span><span class="n">h</span><span class="p">,</span> <span class="n">x</span><span class="o">.</span><span class="p">(</span><span class="n">poi</span><span class="p">))</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</blockquote>
+
+<p>Lorem <code class="language-plaintext highlighter-rouge">ipsum</code> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+
+<h2 id="sit">sit</h2>
+
+<p><a href="https://google.com">consequat</a></p>
+
+<p><a href="https://google.com">consequat</a>. Duis aute irure <code class="language-plaintext highlighter-rouge">dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum</code>.</p>
+
+<h2 id="amet">amet</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Syntax</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>header</td>
+      <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, seddo eiusmod</td>
+    </tr>
+    <tr>
+      <td>Paragraph</td>
+      <td>Text</td>
+    </tr>
+  </tbody>
+</table>
+
+
+  <div id="back-button">
+    <hr>
+    <a href="https://anon-org.github.io/jekyll-blog">Home</a>
+  </div>
+</main></body>
+<script type="text/javascript" src="https://anon-org.github.io/jekyll-blog/assets/js/index.js"></script>
+</html>

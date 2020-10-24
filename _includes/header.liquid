@@ -1,0 +1,22 @@
+{%- include variables.liquid -%}
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    Site Template By: Clavin June | https://github.com/anon-org/jekyll-blog
+  -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatbile" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="{{ author }}" />
+  {{ description_tag }}
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:locale" content="{{ locale }}" />
+  <meta property="og:url" content="{{ url }}" />
+  <meta property="og:site_name" content="{{ site_name }}" />
+  {{ canonical_tag }}
+  <title> {{ title }} </title>
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/syntax.css">
+</head>
+<body>
